@@ -1,1 +1,16 @@
-<p>results-table works!</p>
+<table>
+  <tr>
+    <th>Futam</th>
+    <th>Dátum</th>
+    <th>Győztes</th>
+    <th>Csapat</th>
+    <th>Körök száma</th>
+  </tr>
+  <tr *ngFor="let r of result; index as i" (click)="showPodium(i)" [class.selected]="index == i">
+    <td>{{ r.grandPrix }}</td>
+    <td>{{ r.date | date:'shortDate' }}</td>
+    <td>{{ r.winner }}</td>
+    <td>{{ r.team | uppercase }}</td>
+    <td>{{ r.laps }}</td>
+  </tr>
+</table>

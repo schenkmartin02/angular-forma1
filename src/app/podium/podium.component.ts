@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Result} from "../../result";
 
 @Component({
   selector: 'app-podium',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./podium.component.css']
 })
 export class PodiumComponent implements OnInit {
+  @Input() podium: Result[] = [];
+  @Input() index = -1;
+  @Output() resetIndex = new EventEmitter<number>();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  defaultIndex() {
+    this.index = -1;
+    this.resetIndex.emit(this.index);
   }
 
 }

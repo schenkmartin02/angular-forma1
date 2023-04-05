@@ -1,1 +1,6 @@
-<p>podium works!</p>
+<div *ngIf="index > 0">
+  <ol>
+    <li *ngFor="let p of podium[index].podium">{{ p }}</li>
+  </ol>
+  <button (click)="defaultIndex()" >Elrejt</button>
+</div>
