@@ -8,13 +8,15 @@ table {
   border: 1px solid darkgray;
   width: 80%;
 }
- th {
-   padding: 10px;
-   text-align: left;
- }
+th {
+  padding: 10px;
+  text-align: left;
+}
 
 td {
   padding: 5px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

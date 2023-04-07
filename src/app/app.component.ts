@@ -14,5 +14,6 @@ export class AppComponent{
 
   showIndex(index: number) {
     this.index = index;
+    this.podium = this.results[index].podium;
   }
 }

@@ -7,7 +7,7 @@ import {Result} from "../../result";
   styleUrls: ['./podium.component.css']
 })
 export class PodiumComponent implements OnInit {
-  @Input() podium: Result[] = [];
+  @Input() podium: string[] = [];
   @Input() index = -1;
   @Output() resetIndex = new EventEmitter<number>();
 

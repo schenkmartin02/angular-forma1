@@ -1,10 +1,10 @@
 export interface Result {
-  grandPrix: string,
-  date: Date,
-  winner: string,
-  team: string,
-  laps: number,
-  podium: string[]
+  grandPrix: string;
+  date: Date;
+  winner: string;
+  team: string;
+  laps: number;
+  podium: string[];
 }
 
 export const ressults: Result[] = [
@@ -14,7 +14,7 @@ export const ressults: Result[] = [
     winner: 'Lewis Hamilton',
     team: 'Mercedes',
     laps: 56,
-    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas']
+    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Emilia Romagna',
@@ -22,7 +22,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 63,
-    podium: ['Max Verstappen', 'Lewis Hamilton', 'Lando Norris']
+    podium: ['Max Verstappen', 'Lewis Hamilton', 'Lando Norris'],
   },
   {
     grandPrix: 'Portugal',
@@ -30,7 +30,7 @@ export const ressults: Result[] = [
     winner: 'Lewis Hamilton',
     team: 'Mercedes',
     laps: 66,
-    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas']
+    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Spain',
@@ -38,7 +38,7 @@ export const ressults: Result[] = [
     winner: 'Lewis Hamilton',
     team: 'Mercedes',
     laps: 66,
-    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas']
+    podium: ['Lewis Hamilton', 'Max Verstappen', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Monaco',
@@ -46,7 +46,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 78,
-    podium: ['Max Verstappen', 'Carlos Sainz', 'Lando Norris']
+    podium: ['Max Verstappen', 'Carlos Sainz', 'Lando Norris'],
   },
   {
     grandPrix: 'Azerbaijan',
@@ -54,7 +54,7 @@ export const ressults: Result[] = [
     winner: 'Sergio Perez',
     team: 'Red Bull Racing Honda',
     laps: 51,
-    podium: ['Sergio Perez', 'Sebastian Vettel', 'Pierre Gasly']
+    podium: ['Sergio Perez', 'Sebastian Vettel', 'Pierre Gasly'],
   },
   {
     grandPrix: 'France',
@@ -62,7 +62,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 53,
-    podium: ['Max Verstappen', 'Lewis Hamilton', 'Sergio Perez']
+    podium: ['Max Verstappen', 'Lewis Hamilton', 'Sergio Perez'],
   },
   {
     grandPrix: 'Styria',
@@ -70,7 +70,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 71,
-    podium: ['Max Verstappen', 'Lewis Hamilton', 'Valtteri Bottas']
+    podium: ['Max Verstappen', 'Lewis Hamilton', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Austria',
@@ -78,7 +78,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 71,
-    podium: ['Max Verstappen', 'Valtteri Bottas', 'Lando Norris']
+    podium: ['Max Verstappen', 'Valtteri Bottas', 'Lando Norris'],
   },
   {
     grandPrix: 'Great Britain',
@@ -86,7 +86,7 @@ export const ressults: Result[] = [
     winner: 'Lewis Hamilton',
     team: 'Mercedes',
     laps: 52,
-    podium: ['Lewis Hamilton', 'Charles Leclerc', 'Valtteri Bottas']
+    podium: ['Lewis Hamilton', 'Charles Leclerc', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Hungary',
@@ -94,7 +94,7 @@ export const ressults: Result[] = [
     winner: 'Esteban Ocon',
     team: 'Alpine Renault',
     laps: 70,
-    podium: ['Esteban Ocon', 'Sebastian Vettel', 'Lewis Hamilton']
+    podium: ['Esteban Ocon', 'Sebastian Vettel', 'Lewis Hamilton'],
   },
   {
     grandPrix: 'Belgium',
@@ -102,7 +102,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 1,
-    podium: ['Max Verstappen', 'George Russell', 'Lewis Hamilton']
+    podium: ['Max Verstappen', 'George Russell', 'Lewis Hamilton'],
   },
   {
     grandPrix: 'Netherlands',
@@ -110,7 +110,7 @@ export const ressults: Result[] = [
     winner: 'Max Verstappen',
     team: 'Red Bull Racing Honda',
     laps: 72,
-    podium: ['Max Verstappen', 'Lewis Hamilton', 'Valtteri Bottas']
+    podium: ['Max Verstappen', 'Lewis Hamilton', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Italy',
@@ -118,7 +118,7 @@ export const ressults: Result[] = [
     winner: 'Daniel Ricciardo',
     team: 'McLaren Mercedes',
     laps: 53,
-    podium: ['Daniel Ricciardo', 'Lando Norris', 'Valtteri Bottas']
+    podium: ['Daniel Ricciardo', 'Lando Norris', 'Valtteri Bottas'],
   },
   {
     grandPrix: 'Russia',
@@ -126,6 +126,6 @@ export const ressults: Result[] = [
     winner: 'Lewis Hamilton',
     team: 'Mercedes',
     laps: 53,
-    podium: ['Lewis Hamilton', 'Max Verstappen', 'Carlos Sainz']
-  }
+    podium: ['Lewis Hamilton', 'Max Verstappen', 'Carlos Sainz'],
+  },
 ];

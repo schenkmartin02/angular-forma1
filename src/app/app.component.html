@@ -1,4 +1,4 @@
 <h1>Eredmények</h1>
 <img [src]="logo" alt="logo">
 <app-results-table [result]="results" [index]="index" (indexShow)="showIndex($event)"></app-results-table>
-<app-podium [podium]="results" [index]="index" (resetIndex)="showIndex($event)"></app-podium>
+<app-podium [podium]="podium" [index]="index" (resetIndex)="showIndex($event)"></app-podium>

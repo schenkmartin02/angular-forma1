@@ -1,10 +1,10 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {Result} from "../../result";
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Result } from '../../result';
 
 @Component({
   selector: 'app-results-table',
   templateUrl: './results-table.component.html',
-  styleUrls: ['./results-table.component.css']
+  styleUrls: ['./results-table.component.css'],
 })
 export class ResultsTableComponent implements OnInit {
   @Input() result: Result[] = [];
@@ -12,16 +12,13 @@ export class ResultsTableComponent implements OnInit {
   @Output() indexShow = new EventEmitter<number>();
   show = false;
 
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   showPodium(index: number) {
     this.show = true;
     this.index = index;
     this.indexShow.emit(index);
   }
-
 }
